@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/samantha/ontologies/2020/0/23/pocketmonsters"
+     xml:base="https://github.com/sap218/jabberwocky-tests/tree/master/catch/ontology/pocketmonsters"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/samantha/ontologies/2020/0/23/pocketmonsters">
+     ontologyIRI="https://github.com/sap218/jabberwocky-tests/tree/master/catch/ontology/pocketmonsters">
     <Prefix name="" IRI="http://www.semanticweb.org/samantha/ontologies/2020/0/23/pocketmonsters#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -16,6 +16,463 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal>Brief Pokemon Ontology</Literal>
     </Annotation>
+    <Declaration>
+        <Class IRI="#PM_00001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PM_00031"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#PM_00004"/>
+        <Class IRI="#PM_00003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00005"/>
+        <Class IRI="#PM_00003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00006"/>
+        <Class IRI="#PM_00003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00008"/>
+        <Class IRI="#PM_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00009"/>
+        <Class IRI="#PM_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00010"/>
+        <Class IRI="#PM_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00011"/>
+        <Class IRI="#PM_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00012"/>
+        <Class IRI="#PM_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00013"/>
+        <Class IRI="#PM_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00014"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00015"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00016"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00017"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00018"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00019"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00020"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00021"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00022"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00023"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00024"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00025"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00026"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00027"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00028"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00029"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00030"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PM_00031"/>
+        <Class IRI="#PM_00002"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#PM_00004"/>
+        <Class IRI="#PM_00005"/>
+        <Class IRI="#PM_00006"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PM_00008"/>
+        <Class IRI="#PM_00009"/>
+        <Class IRI="#PM_00010"/>
+        <Class IRI="#PM_00011"/>
+        <Class IRI="#PM_00012"/>
+        <Class IRI="#PM_00013"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00001</IRI>
+        <Literal xml:lang="en">generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00002</IRI>
+        <Literal xml:lang="en">type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00003</IRI>
+        <Literal xml:lang="en">size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00004</IRI>
+        <Literal xml:lang="en">small</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00005</IRI>
+        <Literal xml:lang="en">medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00006</IRI>
+        <Literal xml:lang="en">large</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#PM_00008</IRI>
+        <Literal>generation 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00008</IRI>
+        <Literal>gen 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00008</IRI>
+        <Literal>gen one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00008</IRI>
+        <Literal xml:lang="en">generation one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#PM_00009</IRI>
+        <Literal>generation 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00009</IRI>
+        <Literal>gen 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00009</IRI>
+        <Literal>gen two</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00009</IRI>
+        <Literal xml:lang="en">generation two</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#PM_00010</IRI>
+        <Literal>generation 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00010</IRI>
+        <Literal>gen 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00010</IRI>
+        <Literal>gen three</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00010</IRI>
+        <Literal xml:lang="en">generation three</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#PM_00011</IRI>
+        <Literal>generation 4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00011</IRI>
+        <Literal>gen 4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00011</IRI>
+        <Literal>gen four</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00011</IRI>
+        <Literal xml:lang="en">generation four</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#PM_00012</IRI>
+        <Literal>generation 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00012</IRI>
+        <Literal>gen 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00012</IRI>
+        <Literal>gen five</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00012</IRI>
+        <Literal xml:lang="en">generation five</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#PM_00013</IRI>
+        <Literal>generation 6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00013</IRI>
+        <Literal>gen 6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+        <IRI>#PM_00013</IRI>
+        <Literal>gen six</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00013</IRI>
+        <Literal xml:lang="en">generation six</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00014</IRI>
+        <Literal xml:lang="en">normal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00015</IRI>
+        <Literal xml:lang="en">grass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00016</IRI>
+        <Literal xml:lang="en">water</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00017</IRI>
+        <Literal xml:lang="en">fire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00018</IRI>
+        <Literal xml:lang="en">electric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00019</IRI>
+        <Literal xml:lang="en">ground</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00020</IRI>
+        <Literal xml:lang="en">rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00021</IRI>
+        <Literal xml:lang="en">flying</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00022</IRI>
+        <Literal xml:lang="en">bug</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00023</IRI>
+        <Literal xml:lang="en">poison</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00024</IRI>
+        <Literal xml:lang="en">fighting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00025</IRI>
+        <Literal xml:lang="en">psychic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00026</IRI>
+        <Literal xml:lang="en">ghost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00027</IRI>
+        <Literal xml:lang="en">dark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00028</IRI>
+        <Literal xml:lang="en">ice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00029</IRI>
+        <Literal xml:lang="en">steel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00030</IRI>
+        <Literal xml:lang="en">dragon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00031</IRI>
+        <Literal xml:lang="en">fairy</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
