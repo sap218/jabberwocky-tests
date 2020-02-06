@@ -9,5 +9,9 @@ see directory `catch` for the example test
 * `blog_post` is the key for the text, using this will collate the users' blog posts and ignore their names
 
 ```
-$ catch -ontology ontology/pocketmonsters.owl -keywords listofwords.txt -textfile blogs.json -parameter blog_post > catch_output.txt
+$ catch -ontology ontology/pocketmonsters.owl -keywords listofwords.txt -textfile blogs_formatted.json -parameter blog_post > catch_output.txt
+```
+
+```
+$ catch -ontology ontology/pocketmonsters.owl -keywords listofwords.txt -textfile blogs_unformatted.txt -parameter blog_post > catch_output.txt
 ```
