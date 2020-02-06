@@ -8,10 +8,15 @@ see directory `catch` for the example test
 * `blogs.json` is file of user blogs - **note**: this was completely fabricated for the exampple
 * `blog_post` is the key for the text, using this will collate the users' blog posts and ignore their names
 
+*give keywords, json file w/ parameter*
 ```
 $ catch -ontology ontology/pocketmonsters.owl -keywords listofwords.txt -textfile blogs_formatted.json -parameter blog_post > catch_output.txt
 ```
-
+*give keywords, txt file*
 ```
-$ catch -ontology ontology/pocketmonsters.owl -keywords listofwords.txt -textfile blogs_unformatted.txt -parameter blog_post > catch_output.txt
+$ catch -ontology ontology/pocketmonsters.owl -keywords listofwords.txt -textfile blogs_unformatted.txt > catch_output.txt
+```
+*no keywords, a txt file*
+```
+$ catch -ontology ontology/pocketmonsters.owl -textfile blogs_unformatted.txt > catch_output.txt
 ```
