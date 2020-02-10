@@ -1,5 +1,5 @@
 # jabberwocky-tests
-tests for the jabberwocky toolkit
+tests for the jabberwocky toolkit - see [jabberwocky](https://github.com/sap218/jabberwocky) repository
 
 ### `catch`
 see directory `catch` for the example test
@@ -9,16 +9,16 @@ see directory `catch` for the example test
 * `blog_post` is the key for the text, using this will collate the users' blog posts and ignore their names
 
 
-*ontology, keywords, json file w/ parameter*
+**ontology, keywords, json file w/ parameter** - *this is the current `ontology_dict_class_synonyms.json` output* 
 
-`$ catch --ontology ontology/pocketmonsters.owl --keywords listofwords.txt --textfile blogs_formatted.json --parameter blog_post`
-
-
-*ontology, keywords, txt file, saves to file*
-
-`$ catch --ontology ontology/pocketmonsters.owl --keywords listofwords.txt --textfile blogs_unformatted.txt > catch_output.txt`
+`$ catch --ontology ontology/pocketmonsters.owl --keywords listofwords.txt --textfile blogs_formatted.json --parameter blog_post > catch_output.txt`
 
 
-*ontology, txt file*
+**ontology, keywords, txt file, saves to file**
 
-`$ catch --ontology ontology/pocketmonsters.owl --textfile blogs_unformatted.txt`
+`$ catch -o ontology/pocketmonsters.owl -k listofwords.txt -t blogs_unformatted.txt`
+
+
+**ontology, txt file**
+
+`$ catch -o ontology/pocketmonsters.owl --textfile blogs_unformatted.txt`
