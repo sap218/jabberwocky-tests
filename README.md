@@ -1,6 +1,8 @@
 # jabberwocky-tests
 tests for the jabberwocky toolkit - see [jabberwocky](https://github.com/sap218/jabberwocky) repository
 
+---
+
 ### `catch`
 see directory `catch` for the example test
 * `ontology/pocketmonsters.owl` is a very brief ontology with classes, including exact and related synonyms
@@ -24,7 +26,7 @@ see directory `catch` for the example test
 `$ catch -o ontology/pocketmonsters.owl --textfile blogs_unformatted.txt`
 
 
-
+---
 
 
 ### `bite`
