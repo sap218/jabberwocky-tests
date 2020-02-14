@@ -22,3 +22,21 @@ see directory `catch` for the example test
 **ontology, txt file**
 
 `$ catch -o ontology/pocketmonsters.owl --textfile blogs_unformatted.txt`
+
+
+
+
+
+### `bite`
+see directory `bite` for the example test
+* `ontology/pocketmonsters.owl` is a very brief ontology with classes, including exact and related synonyms
+* `public_forum` is the public forum example which will be used
+
+**ontology, json file w/ parameter** - *this is the current `ontology_all_terms.txt` & `tfidf_results.csv` output* 
+
+`$ bite -o ontology/pocketmonsters.owl -t public_forum.json -p post`
+
+
+**json file w/ parameter** - *this will not remove any ontology terms and so output will be larger*
+
+`$ bite -t public_forum.json -p post`
