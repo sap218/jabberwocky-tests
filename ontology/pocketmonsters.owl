@@ -35,6 +35,9 @@
         <Class IRI="#PM_00006"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#PM_00007"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PM_00008"/>
     </Declaration>
     <Declaration>
@@ -262,6 +265,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#PM_00006</IRI>
         <Literal xml:lang="en">large</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PM_00007</IRI>
+        <Literal xml:lang="en">route</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
