@@ -38,3 +38,16 @@ see directory `bite` for the example test - **note**: code was performed in the 
 **json file w/ parameter** - *this will not remove any ontology terms and so output will be larger*
 
 `$ bite -t public_forum.json -p post`
+
+
+---
+
+
+### `arise`
+see directory `arise` for the example test - **note**: code was performed in the directory
+* `ontology/pocketmonsters.owl` is a very brief ontology with classes, including exact and related synonyms
+* `new_synonyms_tfidf.csv` is the new synonyms you want to add - based on the `bite` output
+* `updated-ontology.owl` is the output 
+
+`$ arise -ontology ../ontology/pocketmonsters.owl -tfidf new_synonyms_tfidf.csv`
+`$ arise -o ../ontology/pocketmonsters.owl -f new_synonyms_tfidf.csv`
