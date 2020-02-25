@@ -51,3 +51,24 @@ see directory `arise` for the example test - **note**: code was performed in the
 
 `$ arise -ontology ../ontology/pocketmonsters.owl -tfidf new_synonyms_tfidf.csv`
 `$ arise -o ../ontology/pocketmonsters.owl -f new_synonyms_tfidf.csv`
+
+
+---
+---
+
+
+### process/
+**Note**: during these steps I renamed files accordingly to display the differences
+* `catch` using the ontology [pocketmonsters.owl], keywords [`listofwords.txt`], text data [public_forum.json] (& parameter) to `catch_01_output.txt` - current classes and synonyms are: `catch_01_ontology_dict_class_synonyms.json`
+* `bite` using the text data (& parameter) - the full results are in `bite_01_tfidf_results` and then made `new_synonyms_tfidf.csv` based on it
+* `arise` using the ontology and the `new_synonyms_tfidf.csv` file, providing `updated-ontology.owl` output
+* `bite` ran a second time to oberve rewighing, provided the `updated-ontology.owl` and the text data (& parameter) - the full results are in `bite_02_tfidf_results` plus a list of all ontology class terms & synonyms in `bite_02_ontology_all_terms.txt`
+* `catch` is the final step: using the `updated-ontology.owl`, keywords, text data (& parameter) to `catch_02_output.txt` - with newly updated classes and synonyms are: `catch_02_ontology_dict_class_synonyms.json`
+
+```
+$ catch -o ../ontology/pocketmonsters.owl -k listofwords.txt -t public_forum.json -p post > catch_01_output.txt
+$ bite -t public_forum.json -p post
+$ arise -o ../ontology/pocketmonsters.owl -f new_synonyms_tfidf.csv 
+$ bite -o updated-ontology.owl -t public_forum.json -p post
+$ catch -o updated-ontology.owl -k listofwords.txt -t public_forum.json -p post > catch_02_output.txt
+```
