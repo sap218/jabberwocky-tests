@@ -57,7 +57,9 @@ see directory `arise` for the example test - **note**: code was performed in the
 ---
 
 
-### process/
+### `process/`
+See [`jabberwocky-tests/process/`](https://github.com/sap218/jabberwocky-tests/tree/master/process) for the directory which uses all commands together to form an ontology development / text analysis process - see [jabberwocky](https://github.com/sap218/jabberwocky) repo for the image of the workflow.
+
 **Note**: during these steps I renamed files accordingly to display the differences
 * `catch` using the ontology [pocketmonsters.owl], keywords [`listofwords.txt`], text data [public_forum.json] (& parameter) to `catch_01_output.txt` - current classes and synonyms are: `catch_01_ontology_dict_class_synonyms.json`
 * `bite` using the text data (& parameter) - the full results are in `bite_01_tfidf_results` and then made `new_synonyms_tfidf.csv` based on it
