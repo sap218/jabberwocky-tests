@@ -1,5 +1,7 @@
 # jabberwocky-tests
-tests for the jabberwocky toolkit - see [jabberwocky](https://github.com/sap218/jabberwocky) repository
+tests for the jabberwocky toolkit - before installation, please install jabberwocky toolkit (see [jabberwocky](https://github.com/sap218/jabberwocky) repo) for installation instructions. 
+
+**note**: this repository is only for the jabberwocky toolkit examples, no official `.py` scripts in this repo are available (see [jabberwocky](https://github.com/sap218/jabberwocky) repo)! only examples in the `README`.
 
 ---
 
