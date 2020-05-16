@@ -51,7 +51,7 @@ see directory `arise` for the example test - **note**: code was performed in the
 * `new_synonyms_tfidf.csv` is the new synonyms you want to add - based on the `bite` output
 * `updated-ontology.owl` is the output 
 
-`$ arise -ontology ../ontology/pocketmonsters.owl -tfidf new_synonyms_tfidf.csv`
+`$ arise --ontology ../ontology/pocketmonsters.owl --tfidf new_synonyms_tfidf.csv`
 `$ arise -o ../ontology/pocketmonsters.owl -f new_synonyms_tfidf.csv`
 
 
