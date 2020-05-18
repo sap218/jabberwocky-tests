@@ -3,6 +3,8 @@ tests for the jabberwocky toolkit - before installation, please install jabberwo
 
 **note**: this repository is only for the jabberwocky toolkit examples, no official `.py` scripts in this repo are available (see [jabberwocky](https://github.com/sap218/jabberwocky) repo)! only examples in the `README`.
 
+#### see [**SCENARIO.md**](https://github.com/sap218/jabberwocky-tests/blob/master/SCENARIO.md) for a full-depth explanation of each command, the inputs, and outputs.
+
 ---
 
 ### `catch`
