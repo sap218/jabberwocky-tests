@@ -52,6 +52,9 @@ see directory `arise` for the example test - **note**: code was performed in the
 * `updated-ontology.owl` is the output 
 
 `$ arise --ontology ../ontology/pocketmonsters.owl --tfidf new_synonyms_tfidf.csv`
+
+the other way to use the same command (shorter parameters): 
+
 `$ arise -o ../ontology/pocketmonsters.owl -f new_synonyms_tfidf.csv`
 
 
